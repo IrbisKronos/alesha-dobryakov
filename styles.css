@@ -91,26 +91,49 @@ a {
 	max-height: 200px;
 }
 .hero__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 12px;
 }
 .hero__content p {
 	margin-top: 30px;
 	font-size: 20px;
 	line-height: 30px;
+	text-align: center;
 }
-@media only screen and (max-width: 800px) {
-	.hero__content p {
-		margin-top: -300px;
-	}
-}
+
 .hero__content-baner {
 	display: flex;
-	min-height: 900px;
+	min-height: 600px;
 	min-width: 400px;
+	max-width: 480px;
+
 	background-image: url(./img/cover.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.hero__content-baner a {
+	margin: 0 auto;
+}
 .products {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+.dowload-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 180px;
+	border: solid #333136;
+	border-radius: 10px;
+}
+.download-asset {
 }
 .footer {
 }
