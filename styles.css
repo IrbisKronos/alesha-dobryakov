@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Jost", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #12161b;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 0 30px;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.menu {
+	gap: 42px;
+}
+
+.menu a {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	color: #333136;
+	text-decoration-line: none;
+	transition: text-decoration-line 0.5s ease-in-out;
+}
+
+.menu a:hover {
+	text-decoration-line: underline;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__banner {
+	min-height: 310px;
+	min-width: 800px;
+	max-width: 100%;
+	padding: 4rem 0;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	background: url(./img/portrait.jpg) left 32px top 32px / 120px no-repeat, url(./img/title.jpg) center top 32px / 400px no-repeat,
+		url(./img/camel.jpg) right 22px top 32px / 160px no-repeat, url(./img/background.jpg) center bottom / cover;
+}
+
+.main {
+	padding: 10px;
+}
+.container-bg {
+}
+.hero {
+	display: flex;
+}
+.hero__images-side {
+	display: flex;
+	flex-direction: column;
+}
+.hero__images-side img {
+	max-width: 180px;
+	height: auto;
+}
+.cowboy {
+	max-height: 200px;
+}
+.hero__content {
+}
+.hero__content p {
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+@media only screen and (max-width: 800px) {
+	.hero__content p {
+		margin-top: -300px;
+	}
+}
+.hero__content-baner {
+	display: flex;
+	min-height: 900px;
+	min-width: 400px;
+	background-image: url(./img/cover.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.products {
+}
+.footer {
+}
