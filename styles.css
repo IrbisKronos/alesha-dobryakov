@@ -72,7 +72,7 @@ a {
 }
 
 .main {
-	padding: 100px;
+	padding: 20px;
 }
 .container-bg {
 }
@@ -82,6 +82,7 @@ a {
 .hero__images-side {
 	display: flex;
 	flex-direction: column;
+	padding-top: 150px;
 }
 .hero__images-side img {
 	max-width: 180px;
